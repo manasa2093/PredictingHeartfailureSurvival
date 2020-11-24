@@ -63,12 +63,12 @@ The rate at which death occured is 32% in the entire dataset. <br />
 
 Analyzing the above plots reveal that:
 
-**1. Age & Death :** patients aged above 80 have more chances of morality. <br />
+**1. Age & Death :** patients aged above 80 have more chances of mortality. <br />
 **2. Ejection_fraction & Death :** patients with low ejection fraction, that is less than 30 have more chances mortality and above 30 have higher chance of surviving. <br />
 **3. Time & Death:** Patients with less followup period resulted in more deaths. <br />
 
 
-**Cluster analysis: Time vs Age with respect to morality**
+**Cluster analysis: Time vs Age with respect to mortality**
 
 
 <img width="743" alt="Cluster" src="https://user-images.githubusercontent.com/64856136/100118935-54c85100-2e44-11eb-9a82-5332cdb2f8d4.png">
