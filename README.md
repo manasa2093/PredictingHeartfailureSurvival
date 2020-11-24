@@ -39,17 +39,62 @@ The medical conditions that have impact on heart failures are - Diabetes, High B
 **PREVENTION :** With the advancement of science and technology, if Heart failure's are diagnosied early,  it can be treated and can increase the survival rate. <br />
 “The very essence of cardiovascular practice is the early detection of heart failure” - Sir Thomas Lewis, 1933 <br />
 
-This dataset contains 299 observations and 13 variables. 
+This dataset contains 299 observations and 13 variables. Death_event is the dependent variable 
+
 
 
 ## **DISCOVER DATA-** <br />
 
+There was no cleaning necessary for this dataset. The only change was changing the data type of age from float to int. <br />
+
+The rate at which death occured is 32% in the entire dataset. <br />
+
+#Identifying the relationship between age, ejection_fraction and time with target variable <br />
 
 
 
 
 
+**Findings**
 
+**Analyzing the above plots reveal that:**
+
+**1. Age & Death :** patients aged above 80 have more chances of morality. <br />
+**2. Ejection_fraction & Death :** patients with low ejection fraction, that is less than 30 have more chances mortality and above 30 have higher chance of surviving. <br />
+**3. Time & Death:** Patients with less followup period resulted in more deaths. <br />
+
+**Cluster analysis**
+
+
+
+### Time vs Age with respect to morality
+
+There are 2 distinct clusters namely:
+
+**Cluster 1- Mortality:** Followup period below 50 and any age : These have high chances of mortality.  <br />
+**Cluster 2: Survival:** Patients with age less than 80 and follow up period more than 50 - have higher changes of survival.  <br />
+
+
+#Identifying the relationship between sex, diabetes, anaemia, High BP and smoking  with target variables
+
+**Analysis of Categorical variables:**
+    
+**Sex Category:** Female has higher chance of surviving than males. <br>
+**Anaemia:** Patients with and without anaemia both have same chances of surviving. <br>
+**Diabetes:** There is not much difference between the patients with and without Diabetes but patients without diabetes have higher chance of Mortality. <br>
+**High_blood_pressure:** There are no siginificant differences between the two. <br>
+**Smoking:** Patients who do smoke have higher chance of survival. 
+
+
+Correlation matrix 
+
+Part 3 : DEVELOP SOLUTIONS 
+
+For base line, Randomly assigned (0,1) in 70-30% using Numpy and calulated the accuracy score. 
+
+Model 1: Logistic Regression 
+
+Model 2: Random Forest 
 
 
 
