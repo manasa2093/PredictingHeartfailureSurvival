@@ -22,15 +22,15 @@ The tools I  used are Python and the libraries- numpy, pandas, matplotlib, seabo
 &nbsp; &nbsp; **Develop solutions**  <br />
 &nbsp; &nbsp; &nbsp; -Establish a baseline  <br />
 &nbsp; &nbsp; &nbsp; -Machine Learning Models  <br />
-&nbsp; &nbsp; &nbsp; &nbsp;**-Logistic Regression**  <br />
-&nbsp; &nbsp; &nbsp; &nbsp;**-Random Forest**  <br />
+&nbsp; &nbsp; &nbsp; &nbsp;  **-Logistic Regression**  <br />
+&nbsp; &nbsp; &nbsp; &nbsp;  **-Random Forest**  <br />
 &nbsp; &nbsp; &nbsp;-Selecting the Best model  <br />
   
 &nbsp; &nbsp; **Deploy model**  <br />
 &nbsp; &nbsp; &nbsp; -Deploy solution  <br />
-&nbsp; &nbsp; &nbsp; -Featuring importance  <br />
+&nbsp; &nbsp; &nbsp; -Feature importance  <br />
 
-## **DEFINING THE PROBLEM-** <br />
+## ** PART 1: DEFINING THE PROBLEM-** <br />
 
 One person dies every 36 seconds from cardiovascular disease in the United States. About 655,000 Americans die from Heart disease each year- that is  1 in every 4 deaths as per the recent statistics(September 2020). Further Heart Disease costs US about $219 billion each year as estimated from 2014 to 2015, which includes cost of health care services, medicines and loss of productivity due to death , according to the Center of Disease Control and Prevention (CDC). <br />
 
@@ -43,9 +43,9 @@ This dataset contains 299 observations and 13 variables. Death_event is the depe
 
 
 
-## **DISCOVER DATA-** <br />
+## ** PART 2: DISCOVER DATA-** <br />
 
-There was no cleaning necessary for this dataset. The only change was changing the data type of age from float to int. <br />
+There was no cleaning necessary for this dataset. The only change was to change the data type of age from float to int. <br />
 
 The rate at which death occured is 32% in the entire dataset. <br />
 
@@ -86,17 +86,19 @@ There are 2 distinct clusters namely:
 **Smoking:** Patients who do smoke have higher chance of survival. 
 
 
-Correlation matrix 
+**Correlation matrix**
 
-Part 3 : DEVELOP SOLUTIONS 
 
-For base line, Randomly assigned (0,1) in 70-30% using Numpy and calulated the accuracy score. 
+## ** PART 3: DEVELOP SOLUTIONS-** <br />
 
-Feature Engineering : Scaled the numeric variables using MinMaxScalar. 
 
-Train test split : Split data into Training and testing in 70-30 %.
+**For base line,** Randomly assigned (0,1) in 70-30% using Numpy and calulated the accuracy score. 
 
-Evaluation Metric : Accuracy score
+**Feature Engineering :** Scaled the numeric variables using MinMaxScalar. 
+
+**Train test split :** Split data into Training and testing in 70-30 %.
+
+**Evaluation Metric :** Accuracy score
 
 The confusion matrix displays the correctly predicted as well as incorrectly predicted values. 
 
@@ -110,15 +112,23 @@ From the above analysis, decreasing the False positive rate is important as inco
 
 Hence, I chose Accuracy to be the Evaluation Metric.
 
-Goal: 
 
-Model 1: Logistic Regression : Found the best parameters using GridSearchCV and got an accuracy score of 79% with 10 false positives.
+**Model 1: Logistic Regression :** Found the best parameters using GridSearchCV and got an accuracy score of 79% with 10 false positives.
 
-Model 2: Random Forest : Found the best parameters using GridSearchCV and got an accuracy score of 87% with 4 false positives.
-
-Selecting the Best model: As random forest gave the best accuracy score with less false positives and it has the best area under the curve that is 0.82 (ROC) , hence it will be selected as the best model.
+**Model 2: Random Forest :** Found the best parameters using GridSearchCV and got an accuracy score of 87% with 4 false positives.
 
 
+## ** PART 4: DEPLOY MODEL-** <br />
 
+**Selecting the Best model:** As random forest gave the best accuracy score with less false positives and it has the best area under the curve that is 0.82 (ROC) , hence it will be selected as the best model.
+
+
+**Feature Importance:**
+This gives us an insights into which variables are important. For example, Time, Serum_creatininie, age, ejection_fraction  are considered as the most important variables. 
+
+
+**Conclusion :**
+
+Random Forest model reduced the False positives by 85% over the baseline model. The evaluation metric considered was Accuracy. The Accuracy for Random forest model for test data set is 82%. 
 
 
