@@ -30,7 +30,7 @@ The tools I  used are Python and the libraries- numpy, pandas, matplotlib, seabo
 &nbsp; &nbsp; &nbsp; -Deploy solution  <br />
 &nbsp; &nbsp; &nbsp; -Feature importance  <br />
 
-## **PART 1: DEFINING THE PROBLEM-** <br />
+## **PART 1: DEFINING THE PROBLEM** <br />
 
 One person dies every 36 seconds from cardiovascular disease in the United States. About 655,000 Americans die from Heart disease each year- that is  1 in every 4 deaths as per the recent statistics(September 2020). Further Heart Disease costs US about $219 billion each year as estimated from 2014 to 2015, which includes cost of health care services, medicines and loss of productivity due to death , according to the Center of Disease Control and Prevention (CDC). <br />
 
@@ -45,13 +45,14 @@ This dataset contains 299 observations and 13 variables. Death_event is the depe
 <img width="607" alt="Screen Shot 2020-11-24 at 11 20 34 AM" src="https://user-images.githubusercontent.com/64856136/100122206-1aac7e80-2e47-11eb-978e-7a76ddfc1ad5.png">
 
 
-## **PART 2: DISCOVER DATA-** <br />
+## **PART 2: DISCOVER DATA** <br />
 
 There was no cleaning necessary for this dataset. The only change was to change the data type of age from float to int. <br />
 
 The rate at which death occured is 32% in the entire dataset. <br />
 
 **Identifying the relationship between age, ejection_fraction and time with target variable** <br />
+
 
 <img width="967" alt="Screen Shot 2020-11-24 at 11 16 23 AM" src="https://user-images.githubusercontent.com/64856136/100120960-8fcb8400-2e46-11eb-98d0-c01c1b92948d.png">
 
@@ -65,7 +66,9 @@ Analyzing the above plots reveal that:
 **2. Ejection_fraction & Death :** patients with low ejection fraction, that is less than 30 have more chances mortality and above 30 have higher chance of surviving. <br />
 **3. Time & Death:** Patients with less followup period resulted in more deaths. <br />
 
+
 **Cluster analysis: Time vs Age with respect to morality**
+
 
 <img width="743" alt="Cluster" src="https://user-images.githubusercontent.com/64856136/100118935-54c85100-2e44-11eb-9a82-5332cdb2f8d4.png">
 
@@ -79,7 +82,9 @@ There are 2 distinct clusters namely:
 **Identifying the relationship between sex, diabetes, anaemia, High BP and smoking  with target variables**
 
 
+
 <img width="767" alt="age,sex,diabetes" src="https://user-images.githubusercontent.com/64856136/100118983-63166d00-2e44-11eb-8491-2578ee26ae65.png">
+
 
 <img width="767" alt="Smoking , Hbp" src="https://user-images.githubusercontent.com/64856136/100119031-6f9ac580-2e44-11eb-932b-11aff2f70f04.png">
 
@@ -97,7 +102,7 @@ Analysis of Categorical variables:
 
 <img width="1000" alt="Correlation" src="https://user-images.githubusercontent.com/64856136/100119071-77f30080-2e44-11eb-907e-7a85196818c3.png">
 
-## **PART 3: DEVELOP SOLUTIONS-** <br />
+## **PART 3: DEVELOP SOLUTIONS** <br />
 
 
 **For base line** Randomly assigned (0,1) in 70-30% using Numpy and calulated the accuracy score. 
@@ -130,7 +135,7 @@ Hence, I chose Accuracy to be the Evaluation Metric.
 
 <img width="528" alt="RF" src="https://user-images.githubusercontent.com/64856136/100119138-8a6d3a00-2e44-11eb-9db4-ef1974eb6976.png">
 
-## **PART 4: DEPLOY MODEL-** <br />
+## **PART 4: DEPLOY MODEL** <br />
 
 **Selecting the Best model:** As random forest gave the best accuracy score with less false positives and it has the best area under the curve that is 0.82 (ROC) , hence it will be selected as the best model.
 
