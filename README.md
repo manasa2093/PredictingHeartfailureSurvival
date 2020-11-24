@@ -34,7 +34,7 @@ The tools I  used are Python and the libraries- numpy, pandas, matplotlib, seabo
 
 One person dies every 36 seconds from cardiovascular disease in the United States. About 655,000 Americans die from Heart disease each year- that is  1 in every 4 deaths as per the recent statistics(September 2020). Further Heart Disease costs US about $219 billion each year as estimated from 2014 to 2015, which includes cost of health care services, medicines and loss of productivity due to death , according to the Center of Disease Control and Prevention (CDC). <br />
 
-The medical conditions that have impact on heart failures are - Diabetes, High Blood Pressure, obesity and other conditions related to heart. Machine Learning, in particular, can predict the patient's survival using the data such as-  electonic medical records of patients quantify symptoms, body features, and clinical laboratory test results. It can also individuate the most important features among those included in their medical records. <br />
+The medical conditions that have impact on heart failures are - Diabetes, High Blood Pressure, obesity and other conditions related to heart. Machine Learning, in particular, can predict the patient's survival using the data such as-  electronic medical records of patients quantify symptoms, body features, and clinical laboratory test results. It can also individuate the most important features among those included in their medical records. <br />
 
 **PREVENTION :** With the advancement of science and technology, if Heart failure's are diagnosied early,  it can be treated and can increase the survival rate. <br />
 “The very essence of cardiovascular practice is the early detection of heart failure” - Sir Thomas Lewis, 1933 <br />
