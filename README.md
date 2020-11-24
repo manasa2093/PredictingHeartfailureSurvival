@@ -53,7 +53,7 @@ The rate at which death occured is 32% in the entire dataset. <br />
 
 #Identifying the relationship between age, ejection_fraction and time with target variable <br />
 
-<img width="1536" alt="Screen Shot 2020-11-24 at 11 16 23 AM" src="https://user-images.githubusercontent.com/64856136/100120960-8fcb8400-2e46-11eb-98d0-c01c1b92948d.png">
+<img width="967" alt="Screen Shot 2020-11-24 at 11 16 23 AM" src="https://user-images.githubusercontent.com/64856136/100120960-8fcb8400-2e46-11eb-98d0-c01c1b92948d.png">
 
 
 
