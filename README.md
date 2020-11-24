@@ -80,9 +80,9 @@ There are 2 distinct clusters namely:
 #Identifying the relationship between sex, diabetes, anaemia, High BP and smoking  with target variables
 
 
-<img width="967" alt="age,sex,diabetes" src="https://user-images.githubusercontent.com/64856136/100118983-63166d00-2e44-11eb-8491-2578ee26ae65.png">
+<img width="767" alt="age,sex,diabetes" src="https://user-images.githubusercontent.com/64856136/100118983-63166d00-2e44-11eb-8491-2578ee26ae65.png">
 
-<img width="967" alt="Smoking , Hbp" src="https://user-images.githubusercontent.com/64856136/100119031-6f9ac580-2e44-11eb-932b-11aff2f70f04.png">
+<img width="767" alt="Smoking , Hbp" src="https://user-images.githubusercontent.com/64856136/100119031-6f9ac580-2e44-11eb-932b-11aff2f70f04.png">
 
 
 **Analysis of Categorical variables:**
