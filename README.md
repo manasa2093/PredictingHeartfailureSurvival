@@ -9,7 +9,7 @@
 
 The tools I  used are Python and the libraries- numpy, pandas, matplotlib, seaborn and sklearn.
 
-# Table of Contents- 4D Method
+## Table of Contents- 4D Method
 
 &nbsp; &nbsp; **Define Problem**  <br />
 &nbsp; &nbsp; &nbsp; -Why Predicting Survival rate in Heart Failures is important?  <br />
@@ -30,6 +30,7 @@ The tools I  used are Python and the libraries- numpy, pandas, matplotlib, seabo
 &nbsp; &nbsp; &nbsp; -Deploy solution  <br />
 &nbsp; &nbsp; &nbsp; -Feature importance  <br />
 
+&nbsp; &nbsp; **Conclusion**  <br />
 ## **PART 1: DEFINING THE PROBLEM** <br />
 
 One person dies every 36 seconds from cardiovascular disease in the United States. About 655,000 Americans die from Heart disease each year- that is  1 in every 4 deaths as per the recent statistics(September 2020). Further Heart Disease costs US about $219 billion each year as estimated from 2014 to 2015, which includes cost of health care services, medicines and loss of productivity due to death , according to the Center of Disease Control and Prevention (CDC). <br />
