@@ -92,9 +92,32 @@ Part 3 : DEVELOP SOLUTIONS
 
 For base line, Randomly assigned (0,1) in 70-30% using Numpy and calulated the accuracy score. 
 
-Model 1: Logistic Regression 
+Feature Engineering : Scaled the numeric variables using MinMaxScalar. 
 
-Model 2: Random Forest 
+Train test split : Split data into Training and testing in 70-30 %.
+
+Evaluation Metric : Accuracy score
+
+The confusion matrix displays the correctly predicted as well as incorrectly predicted values. 
+
+**True negative** is an outcome where the model correctly predicts the negative class :  Patients who are correctly predicted as Survived <br> 
+**True Positives** is an outcome where the model correctly predicts the positive class : patients who are correctly classified as dead <br>
+**False positive** is an outcome where the model incorrectly predicts the positive class :patients who are predicted to be dead when they actually survived <br>
+**False negative** is an outcome where the model incorrectly predicts the negative class : patients who are predicted to be survived when they are actually dead<br>
+ 
+ 
+From the above analysis, decreasing the False positive rate is important as incorrectly perdicting a person to be dead when they are still alive, would deprive the patients from getting necessary treatment. Hence our **goal** is to reduce the False Positives. 
+
+Hence, I chose Accuracy to be the Evaluation Metric.
+
+Goal: 
+
+Model 1: Logistic Regression : Found the best parameters using GridSearchCV and got an accuracy score of 79% with 10 false positives.
+
+Model 2: Random Forest : Found the best parameters using GridSearchCV and got an accuracy score of 87% with 4 false positives.
+
+Selecting the Best model: As random forest gave the best accuracy score with less false positives and it has the best area under the curve that is 0.82 (ROC) , hence it will be selected as the best model.
+
 
 
 
