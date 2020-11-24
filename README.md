@@ -9,7 +9,7 @@
 
 The tools I  used are Python and the libraries- numpy, pandas, matplotlib, seaborn and sklearn.
 
-## Table of Contents- 4D Method
+## **Table of Contents- 4D Method**
 
 &nbsp; &nbsp; **Define Problem**  <br />
 &nbsp; &nbsp; &nbsp; -Why Predicting Survival rate in Heart Failures is important?  <br />
