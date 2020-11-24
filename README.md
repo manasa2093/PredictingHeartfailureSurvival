@@ -147,6 +147,7 @@ This gives us an insights into which variables are important. For example, Time,
 
 **Conclusion :**
 
-Random Forest model reduced the False positives by 85% over the baseline model. The evaluation metric considered was Accuracy. The Accuracy for Random forest model for test data set is 87%. 
+Random Forest model reduced the False positives by 85% over the baseline model. The evaluation metric considered was Accuracy. The Accuracy for Random forest model for test data set is 87%.  <br />
 
+Notebook Url: https://github.com/manasa2093/PredictingHeartfailureSurvival/blob/main/HeartFailurePrediction.ipynb
 
