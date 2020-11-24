@@ -41,7 +41,8 @@ The medical conditions that have impact on heart failures are - Diabetes, High B
 
 This dataset contains 299 observations and 13 variables. Death_event is the dependent variable 
 
-<img width="781" alt="Table" src="https://user-images.githubusercontent.com/64856136/100118873-3c583680-2e44-11eb-9a37-b99d026d7eed.png">
+
+<img width="607" alt="Screen Shot 2020-11-24 at 11 20 34 AM" src="https://user-images.githubusercontent.com/64856136/100122206-1aac7e80-2e47-11eb-978e-7a76ddfc1ad5.png">
 
 
 ## ** PART 2: DISCOVER DATA-** <br />
@@ -142,8 +143,4 @@ This gives us an insights into which variables are important. For example, Time,
 
 Random Forest model reduced the False positives by 85% over the baseline model. The evaluation metric considered was Accuracy. The Accuracy for Random forest model for test data set is 82%. 
 
-<p float="left">
-  <img src="<img width="743" alt="Cluster" src="https://user-images.githubusercontent.com/64856136/100118935-54c85100-2e44-11eb-9a82-5332cdb2f8d4.png">" width="100" />
-  <img src="<img width="743" alt="Cluster" src="https://user-images.githubusercontent.com/64856136/100118935-54c85100-2e44-11eb-9a82-5332cdb2f8d4.png">" width="100" /> 
-</p>
 
