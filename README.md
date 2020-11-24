@@ -131,5 +131,8 @@ This gives us an insights into which variables are important. For example, Time,
 
 Random Forest model reduced the False positives by 85% over the baseline model. The evaluation metric considered was Accuracy. The Accuracy for Random forest model for test data set is 82%. 
 
-
+<p float="left">
+  <img src="<img width="743" alt="Cluster" src="https://user-images.githubusercontent.com/64856136/100118935-54c85100-2e44-11eb-9a82-5332cdb2f8d4.png">" width="100" />
+  <img src="<img width="743" alt="Cluster" src="https://user-images.githubusercontent.com/64856136/100118935-54c85100-2e44-11eb-9a82-5332cdb2f8d4.png">" width="100" /> 
+</p>
 
