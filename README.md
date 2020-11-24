@@ -1,7 +1,7 @@
 # Predicting the survival rate in Heart failure
-[
+
 <p align="center"><img width="450" alt="HF1" src="https://user-images.githubusercontent.com/64856136/100112228-fc418580-2e3c-11eb-9687-752e3e6de46a.png">
-](url)
+
 
 **GOAL** : Predict the Survival rate in Heart Failures
 
