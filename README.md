@@ -41,6 +41,7 @@ The medical conditions that have impact on heart failures are - Diabetes, High B
 
 This dataset contains 299 observations and 13 variables. Death_event is the dependent variable 
 
+<img width="781" alt="Table" src="https://user-images.githubusercontent.com/64856136/100118873-3c583680-2e44-11eb-9a37-b99d026d7eed.png">
 
 
 ## ** PART 2: DISCOVER DATA-** <br />
@@ -51,7 +52,7 @@ The rate at which death occured is 32% in the entire dataset. <br />
 
 #Identifying the relationship between age, ejection_fraction and time with target variable <br />
 
-
+<img width="1536" alt="Screen Shot 2020-11-24 at 11 16 23 AM" src="https://user-images.githubusercontent.com/64856136/100120960-8fcb8400-2e46-11eb-98d0-c01c1b92948d.png">
 
 
 
@@ -65,7 +66,7 @@ The rate at which death occured is 32% in the entire dataset. <br />
 
 **Cluster analysis**
 
-
+<img width="743" alt="Cluster" src="https://user-images.githubusercontent.com/64856136/100118935-54c85100-2e44-11eb-9a82-5332cdb2f8d4.png">
 
 ### Time vs Age with respect to morality
 
@@ -77,6 +78,12 @@ There are 2 distinct clusters namely:
 
 #Identifying the relationship between sex, diabetes, anaemia, High BP and smoking  with target variables
 
+
+<img width="967" alt="age,sex,diabetes" src="https://user-images.githubusercontent.com/64856136/100118983-63166d00-2e44-11eb-8491-2578ee26ae65.png">
+
+<img width="975" alt="Smoking , Hbp" src="https://user-images.githubusercontent.com/64856136/100119031-6f9ac580-2e44-11eb-932b-11aff2f70f04.png">
+
+
 **Analysis of Categorical variables:**
     
 **Sex Category:** Female has higher chance of surviving than males. <br>
@@ -87,12 +94,14 @@ There are 2 distinct clusters namely:
 
 
 **Correlation matrix**
-
+<img width="1053" alt="Correlation" src="https://user-images.githubusercontent.com/64856136/100119071-77f30080-2e44-11eb-907e-7a85196818c3.png">
 
 ## ** PART 3: DEVELOP SOLUTIONS-** <br />
 
 
 **For base line,** Randomly assigned (0,1) in 70-30% using Numpy and calulated the accuracy score. 
+
+<img width="1057" alt="Baseline" src="https://user-images.githubusercontent.com/64856136/100119111-80e3d200-2e44-11eb-80a1-7ab7f001f1d6.png">
 
 **Feature Engineering :** Scaled the numeric variables using MinMaxScalar. 
 
@@ -117,6 +126,7 @@ Hence, I chose Accuracy to be the Evaluation Metric.
 
 **Model 2: Random Forest :** Found the best parameters using GridSearchCV and got an accuracy score of 87% with 4 false positives.
 
+<img width="528" alt="RF" src="https://user-images.githubusercontent.com/64856136/100119138-8a6d3a00-2e44-11eb-9db4-ef1974eb6976.png">
 
 ## ** PART 4: DEPLOY MODEL-** <br />
 
@@ -126,6 +136,7 @@ Hence, I chose Accuracy to be the Evaluation Metric.
 **Feature Importance:**
 This gives us an insights into which variables are important. For example, Time, Serum_creatininie, age, ejection_fraction  are considered as the most important variables. 
 
+<img width="1027" alt="Feature Imp" src="https://user-images.githubusercontent.com/64856136/100119169-92c57500-2e44-11eb-8224-2a9f7890ae50.png">
 
 **Conclusion :**
 
