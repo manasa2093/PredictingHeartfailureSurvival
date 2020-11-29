@@ -65,7 +65,7 @@ Analyzing the above plots reveal that:
 
 **1. Age & Death :** patients aged above 80 have more chances of mortality. <br />
 **2. Ejection_fraction & Death :** patients with low ejection fraction, that is less than 30 have more chances mortality and above 30 have higher chance of surviving. <br />
-**3. Time & Death:** Patients with less followup period resulted in more deaths. <br />
+**3. Time & Death:** Patients with less follow-up period resulted in more deaths. <br />
 
 
 **Cluster analysis: Time vs Age with respect to mortality**
@@ -76,8 +76,8 @@ Analyzing the above plots reveal that:
 
 There are 2 distinct clusters namely:
 
-**Cluster 1- Mortality:** Followup period below 50 and any age : These have high chances of mortality.  <br />
-**Cluster 2: Survival:** Patients with age less than 80 and follow up period more than 50 - have higher changes of survival.  <br />
+**Cluster 1- Mortality:** Follow-up period below 50 and any age : These have high chances of mortality.  <br />
+**Cluster 2: Survival:** Patients with age less than 80 and follow-up period more than 50 - have higher changes of survival.  <br />
 
 
 **Identifying the relationship between sex, diabetes, anaemia, High BP and smoking  with target variables**
